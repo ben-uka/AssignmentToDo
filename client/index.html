@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="site.css" />
+    <title>ToDo4You</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <button id="displayToDos">Visa ToDos</button>
+        <button id="logout">Logga ut</button>
+      </section>
+
+      <form id="loginForm" style="margin-top: 1em">
+        <label for="email">E-post:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Lösenord:</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Logga in</button>
+      </form>
+
+      <form id="addToDoForm" style="margin-top: 1em">
+        <label for="todoTitle">Titel:</label>
+        <input type="text" id="todoTitle" name="title" required />
+        <label for="todoContent">Text:</label>
+        <input type="text" id="todoContent" name="content" required />
+        <button type="submit">Lägg till</button>
+      </form>
+      <form id="registerForm" style="margin-top: 1em">
+        <h3>Registrera användare (Admin)</h3>
+        <label for="regEmail">E-post:</label>
+        <input type="email" id="regEmail" placeholder="E-post" required />
+        <label for="regPassword">Lösenord:</label>
+        <input
+          type="password"
+          id="regPassword"
+          placeholder="Lösenord"
+          required />
+        <label for="regFirstName">Förnamn:</label>
+        <input type="text" id="regFirstName" placeholder="Förnamn" required />
+        <label for="regLastName">Efternamn:</label>
+        <input type="text" id="regLastName" placeholder="Efternamn" required />
+        <button type="submit">Registrera</button>
+      </form>
+      <hr />
+      <h1>To Do</h1>
+      <section id="toDoList"></section>
+      <div style="text-align: center; margin-top: 1.5em"></div>
+    </main>
+  </body>
+</html>

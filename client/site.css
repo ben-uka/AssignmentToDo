@@ -1,0 +1,99 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+button,
+input[type="submit"] {
+  background: #007cba;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin: 5px 5px 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #005a87;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  margin: 5px 10px 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  background: white;
+  color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid #007cba;
+  outline: none;
+}
+
+#toDoList > div {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+label {
+  font-weight: normal;
+  color: #333;
+  margin-right: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+p {
+  color: #666;
+}
